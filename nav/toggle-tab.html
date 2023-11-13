@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h2>Toggleable Tabs</h2><br>
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="nav-item">
+          <a href="#home" class="nav-link active" data-bs-toggle="tab">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu1" class="nav-link" data-bs-toggle="tab">Menu 1</a>
+        </li>
+        <li class="nav-item">
+          <a href="#menu2" class="nav-link" data-bs-toggle="tab">Menu 2</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div id="home" class="tab-pane container mt-3 active">
+          <h3>Home</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+            voluptas temporibus nostrum modi ad ratione tempora voluptate
+            provident hic delectus voluptatibus perspiciatis non est veniam ut
+            beatae sapiente iste deleniti.
+          </p>
+        </div>
+        <div id="menu1" class="tab-pane container mt-3 fade">
+          <h3>Menu 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+            voluptas temporibus nostrum modi ad ratione tempora voluptate
+            provident hic delectus voluptatibus perspiciatis non est veniam ut
+            beatae sapiente iste deleniti.
+          </p>
+        </div>
+        <div id="menu2" class="tab-pane container mt-3 fade">
+          <h3>Menu 2</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse,
+            voluptas temporibus nostrum modi ad ratione tempora voluptate
+            provident hic delectus voluptatibus perspiciatis non est veniam ut
+            beatae sapiente iste deleniti.
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
