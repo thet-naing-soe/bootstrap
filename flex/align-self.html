@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+    <div class="container mt-3">
+        <h2>Align Self</h2>
+        <p>Control the vertical alignment of a specific flex item with the <code>.align-self-*</code> classes.</p>
+        <p><code>.align-self-start</code></p>
+        <div class="d-flex bg-light mb-3" style="height: 150px;">
+            <div class="p-2 border">Flex item 1</div>
+            <div class="p-2 border align-self-start">Flex item 2</div>
+            <div class="p-2 border">Flex item 3</div>
+        </div>
+        <p><code>.align-self-end</code></p>
+        <div class="d-flex bg-light mb-3" style="height: 150px;">
+            <div class="p-2 border">Flex item 1</div>
+            <div class="p-2 border align-self-end">Flex item 2</div>
+            <div class="p-2 border">Flex item 3</div>
+        </div>
+        <p><code>.align-self-center</code></p>
+        <div class="d-flex bg-light mb-3" style="height: 150px;">
+            <div class="p-2 border">Flex item 1</div>
+            <div class="p-2 border align-self-center">Flex item 2</div>
+            <div class="p-2 border">Flex item 3</div>
+        </div>
+        <p><code>.align-self-baseline</code></p>
+        <div class="d-flex bg-light mb-3" style="height: 150px;">
+            <div class="p-2 border">Flex item 1</div>
+            <div class="p-2 border align-self-baseline">Flex item 2</div>
+            <div class="p-2 border">Flex item 3</div>
+        </div>
+        <p><code>.align-self-stretch</code> (default)</p>
+        <div class="d-flex bg-light mb-3" style="height: 150px;">
+            <div class="p-2 border">Flex item 1</div>
+            <div class="p-2 border align-self-stretch">Flex item 2</div>
+            <div class="p-2 border">Flex item 3</div>
+        </div>
+    </div>
+</body>
+</html>
