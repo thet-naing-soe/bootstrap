@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Input Groups</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container mt-3">
+      <h2>Input Groups</h2>
+      <p>
+        The .input-group class is a container to enhance an input by adding an
+        icon, text or a button in front or behind the input field as a "help
+        text".
+      </p>
+      <p>Use the .input-group-text class to style the specified help text.</p>
+      <form action="">
+        <div class="input-group mb-3">
+          <span class="input-group-text">@</span
+          ><input type="text" name="username" class="form-control" placeholder="Username" />
+        </div>
+        <div class="input-group mb-3">
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="Your Email"
+          /><span class="input-group-text">@example.com</span>
+        </div>
+        <input type="button" value="Submit" class="btn btn-primary" />
+      </form>
+    </div>
+  </body>
+</html>
