@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Auto Layout Columns</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid mt-3">
+      <h2>Responsive Auto Layout Columns</h2>
+      <p>
+        In Bootstrap 5, there is an easy way to create equal width columns: just
+        use the .col-sm class on a specified number of col elements. Bootstrap
+        will recognize how many columns there are, and each column will get the
+        same width.
+      </p>
+      <p>
+        On extra small screens (less than 576px), the columns will stack
+        horizontally.
+      </p>
+      <!-- Two columns: 50% width on all screens, except for extra small (100% width) -->
+      <div class="row mb-3">
+        <div class="col-sm bg-primary text-white">1 of 2</div>
+        <div class="col-sm bg-dark text-white">2 of 2</div>
+      </div>
+      <!-- Four columns: 25% width on all screens, except for extra small (100% width) -->
+      <div class="row">
+        <div class="col-sm bg-primary text-white">1 of 4</div>
+        <div class="col-sm bg-dark text-white">2 of 4</div>
+        <div class="col-sm bg-primary text-white">3 of 4</div>
+        <div class="col-sm bg-dark text-white">4 of 4</div>
+      </div>
+    </div>
+  </body>
+</html>
